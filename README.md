@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# Huemul BigDataGovernance Library!
 
-You can use the [editor on GitHub](https://github.com/Blashhm/blashhm.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![prueba de status](https://github.com/HuemulSolutions/Bigdata-Governance.git)]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+*Huemul Library es una librería gratuita que permita mejorar hasta en 5 veces el tiempo de desarrollo de proyectos BigData
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Uso
 
-```markdown
-Syntax highlighted code block
+Para usar la librería, debes incluir en tu pom.xml el siguiente código:
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+1. Incluir siguiente código en tu `pom.xml`:
 
-1. Numbered
-2. List
+    ```xml
+    <dependency>
+	  <groupId>com.huemulsolutions.bigdata</groupId>
+	  <artifactId>datagovernance</artifactId>
+	  <version>0.9.2</version>
+	</dependency>
+    ```
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Blashhm/blashhm.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	```scala
+    import com.huemulsolutions.bigdata.common._
+    ```
+	
