@@ -61,8 +61,8 @@
       content = [];
       forEach(links, function (i, el) {
         var href = links[i].getAttribute("href").replace("#", "");
-        console.log(document.getElementById(href).offsetTop);
-		console.log(href);
+        console.log(href);
+	console.log(document.getElementById(href).offsetTop);
         content.push(document.getElementById(href).offsetTop + 200);
       });
     };
