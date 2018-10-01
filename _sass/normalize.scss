@@ -562,7 +562,7 @@ th {
 
 .nav-collapse a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-  border-top: 1px solid #1c77d5;
+  border-top: 1px solid white;
   text-decoration: none;
   background: #ffffff;
   padding: 0.7em 1em;
@@ -579,7 +579,7 @@ th {
 
 @media screen and (min-width: 40em) {
   .nav-collapse a {
-    border-left: 1px solid #1c77d5;
+    border-left: 1px solid white;
     padding: 1.02em 2em;
     text-align: center;
     border-top: 0;
