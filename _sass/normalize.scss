@@ -505,8 +505,8 @@ th {
 }
 
 .js-nav-active .mask {
-  visibility: visible;
-  opacity: 1;
+  /*isibility: visible;
+  opacity: 1;*/
 }
 
 @media screen and (min-width: 40em) {
@@ -650,7 +650,6 @@ th {
   FIXED HEADER
 --------------------------------------------- */
 header{
-  background: #f4421a;
   z-index: 3;
   width: 100%;
   left: 0;
