@@ -571,9 +571,7 @@ th {
   float: left;
 }
 
-.iconoDocumentacion{
-  display: block !important;
-}
+
 
 .nav-collapse a:active,
 .nav-collapse .active a {
@@ -589,6 +587,10 @@ th {
     border-top: 0;
     float: left;
     margin: 0;
+  }
+  
+ .iconoDocumentacion{
+    display: none !important;
   }
 }
 
