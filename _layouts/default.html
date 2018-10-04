@@ -76,7 +76,10 @@
   <script> 
   $( document ).ready(function() { 
     //agrega el active segun la pagina que esta cargando
-    var idMenu = window.location.pathname.replace("/", "").replace(".html", "")
+    var idMenu = window.location.pathname.replace("/", "").replace(".html", "");
+    if(idMenu == ""){
+      idMenu = "codigo";
+    }
     var menu =  document.getElementById(idMenu);
     menu.classList.add("active");
   });
