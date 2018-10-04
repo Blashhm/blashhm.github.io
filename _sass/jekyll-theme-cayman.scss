@@ -60,6 +60,15 @@ a {
     text-decoration: underline;
   }
 }
+.menu-item a {
+  color: $body-link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+    background-color: #EFF8FB;
+  }
+}
 
 .btn {
   display: inline-block;
