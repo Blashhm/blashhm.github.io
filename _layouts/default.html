@@ -41,7 +41,7 @@
         <div id="head-mobile"></div>
         <div id="menuresponsive" class="button"></div>
         <ul id="ulresponsive" style="float:right;">
-          <li id="codigo" class='active'><a href='codigo.html'>Codigo</a></li>
+          <li id="codigo"><a href='codigo.html'>Codigo</a></li>
           <li id="documentacion"><a href='#'>Documentacion</a>
             <ul>
               <li><a href='#'>Metodologia</a></li>
@@ -93,6 +93,8 @@
       idMenu = "codigo";
     }
     var pagina = {"codigo":"codigo","documentacion_tipoproyecto":"documentacion", "template_raw":"templates", "template_globalsettings":"templates", "template_table":"templates" };
+    
+    console.log("pagina => " + pagina[idMenu]):
     
     var menu =  document.getElementById(pagina[idMenu]);
     menu.classList.add("active");
