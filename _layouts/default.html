@@ -41,15 +41,15 @@
         <div id="head-mobile"></div>
         <div id="menuresponsive" class="button"></div>
         <ul id="ulresponsive" style="float:right;">
-          <li class='active'><a href='codigo.html'>Codigo</a></li>
-          <li><a href='#'>Documentacion</a>
+          <li id="codigo" class='active'><a href='codigo.html'>Codigo</a></li>
+          <li id="documentacion"><a href='#'>Documentacion</a>
             <ul>
               <li><a href='#'>Metodologia</a></li>
               <li><a href='documentacion_tipoproyecto'>Tipo de un proyecto</a></li>
               <li><a href='#'>Libreria</a></li>
             </ul>
           </li>
-          <li><a href='#'>Templates</a>
+          <li id="tempaltes"><a href='#'>Templates</a>
             <ul>
               <li><a href='template_raw'>Definici&oacute;n de Interfaces de Entrada</a></li>
               <li><a href='template_globalsettings'>Archivo GlobalSettings</a></li>
@@ -92,8 +92,11 @@
     if(idMenu == ""){
       idMenu = "codigo";
     }
-    //var menu =  document.getElementById(idMenu);
-    //menu.classList.add("active");
+    var pagina = {"codigo":"codigo","documentacion_tipoproyecto":"documentacion", "template_raw":"templates", "template_globalsettings":"templates", "template_table":"templates" };
+    
+    var menu =  document.getElementById(pagina[idMenu]);
+    menu.classList.add("active");
+    
     $(window).resize(function(){
       console.log("detecta el cambio");
       $("#menuresponsive").removeClass("menu-opened");
