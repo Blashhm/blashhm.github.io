@@ -94,10 +94,11 @@
     }
     var pagina = {"codigo":"codigo","documentacion_tipoproyecto":"documentacion", "template_raw":"templates", "template_globalsettings":"templates", "template_table":"templates" };
     
-    console.log("pagina => " + pagina[idMenu]):
+    console.log("pagina => " + pagina[idMenu]);
     
     var menu =  document.getElementById(pagina[idMenu]);
-    menu.classList.add("active");
+    //menu.classList.add("active");
+    $("#"+menu).addClass("active");
     
     $(window).resize(function(){
       console.log("detecta el cambio");
