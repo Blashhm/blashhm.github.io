@@ -58,7 +58,7 @@ nav{width:100%;}
 .button.menu-opened:after{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;top:23px;border:0;height:2px;width:19px;background:#fff;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
 .button.menu-opened:before{top:23px;background:#fff;width:19px;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}
 #cssmenu .submenu-button{position:absolute;z-index:99;right:0;top:0;display:block;border-left:1px solid #E0F2F7;height:46px;width:46px;cursor:pointer} /*#444*/
-#cssmenu .submenu-button.submenu-opened{background:#262626}
+#cssmenu .submenu-button.submenu-opened{background:#EFF8FB} /*#262626*/
 #cssmenu ul ul .submenu-button{height:34px;width:34px}
 #cssmenu .submenu-button:after{position:absolute;top:22px;right:19px;width:8px;height:2px;display:block;background:#1c77d5;content:''}/*#ddd*/
 #cssmenu ul ul .submenu-button:after{top:15px;right:13px}
