@@ -22,7 +22,7 @@ nav{position:relative;width:980px;margin:0 auto;}
 #cssmenu li:hover > ul{left:auto}
 #cssmenu li:hover > ul > li{height:35px}
 #cssmenu ul ul ul{margin-left:100%;top:0}
-#cssmenu ul ul li a{border-bottom:1px solid rgba(150,150,150,0.15);padding:11px 15px;width:264px;font-size:12px;text-decoration:none;color:#1c77d5;font-weight:400;}/*#ddd width:170px*/ 
+#cssmenu ul ul li a{border-bottom:1px solid rgba(150,150,150,0.15);padding:11px 15px;width:274px;font-size:12px;text-decoration:none;color:#1c77d5;font-weight:400;}/*#ddd width:170px*/ 
 #cssmenu ul ul li:last-child > a,#cssmenu ul ul li.last-item > a{border-bottom:0}
 #cssmenu ul ul li:hover > a,#cssmenu ul ul li a:hover{color:#1c77d5;background-color:#EFF8FB;} /*#fff*/
 #cssmenu ul ul li.has-sub > a:after{position:absolute;top:16px;right:11px;width:8px;height:2px;display:block;background:#1c77d5;content:''} /*#ddd*/
