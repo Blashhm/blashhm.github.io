@@ -62,7 +62,7 @@ nav{width:100%;}
 #cssmenu ul ul .submenu-button{height:34px;width:34px}
 #cssmenu .submenu-button:after{position:absolute;top:22px;right:19px;width:8px;height:2px;display:block;background:#1c77d5;content:''}/*#ddd*/
 #cssmenu ul ul .submenu-button:after{top:15px;right:13px}
-#cssmenu .submenu-button.submenu-opened:after{background:#fff}
+#cssmenu .submenu-button.submenu-opened:after{background:#1c77d5}/*#fff*/
 #cssmenu .submenu-button:before{position:absolute;top:19px;right:22px;display:block;width:2px;height:8px;background:#1c77d5;content:''}/*#ddd*/
 #cssmenu ul ul .submenu-button:before{top:12px;right:16px}
 #cssmenu .submenu-button.submenu-opened:before{display:none}
