@@ -38,7 +38,7 @@ nav{position:relative;width:980px;margin:0 auto;}
 nav{width:100%;}
 #cssmenu{width:100%}
 #cssmenu ul{width:100%;display:none}
-#cssmenu ul li{width:100%;border-top:1px solid #444}
+#cssmenu ul li{width:100%;border-top:1px solid #333}/*#444*/
 #cssmenu ul li:hover{background:#363636;}
 #cssmenu ul ul li,#cssmenu li:hover > ul > li{height:auto}
 #cssmenu ul li a,#cssmenu ul ul li a{width:100%;border-bottom:0}
@@ -57,7 +57,7 @@ nav{width:100%;}
 .button:before{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;position:absolute;top:16px;right:20px;display:block;height:2px;width:20px;background:#1c77d5;content:''} /*#ddd*/
 .button.menu-opened:after{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;top:23px;border:0;height:2px;width:19px;background:#fff;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
 .button.menu-opened:before{top:23px;background:#fff;width:19px;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}
-#cssmenu .submenu-button{position:absolute;z-index:99;right:0;top:0;display:block;border-left:1px solid #444;height:46px;width:46px;cursor:pointer}
+#cssmenu .submenu-button{position:absolute;z-index:99;right:0;top:0;display:block;border-left:1px solid #333;height:46px;width:46px;cursor:pointer} /*#444*/
 #cssmenu .submenu-button.submenu-opened{background:#262626}
 #cssmenu ul ul .submenu-button{height:34px;width:34px}
 #cssmenu .submenu-button:after{position:absolute;top:22px;right:19px;width:8px;height:2px;display:block;background:#1c77d5;content:''}/*#ddd*/
