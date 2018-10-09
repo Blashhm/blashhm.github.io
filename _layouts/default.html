@@ -40,7 +40,7 @@
         <div class="logo"><a href="blashhm.github.io"><img src="/Huemul_Logo_v3.png" style="height: 50px;"> </a></div>
         <div id="head-mobile"></div>
         <div class="button"></div>
-        <ul style="float:right;">
+        <ul id="ulresponsive" style="float:right;">
           <li class='active'><a href='codigo.html'>Codigo</a></li>
           <li><a href='#'>Documentacion</a>
             <ul>
@@ -94,7 +94,9 @@
     }
     //var menu =  document.getElementById(idMenu);
     //menu.classList.add("active");
-    
+    $("#ulresponsive").on('contentChanged',function(){
+      console.log("detecta el cambio");
+    });
   });
   </script>
 </html>
