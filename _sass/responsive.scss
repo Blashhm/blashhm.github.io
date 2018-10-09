@@ -9,8 +9,8 @@ nav{position:relative;width:980px;margin:0 auto;}
 #cssmenu #head-mobile{display:none}
 #cssmenu{font-family:sans-serif;background:#fff}
 #cssmenu > ul > li{float:left}
-#cssmenu > ul > li > a{padding:17px;font-size:12px;letter-spacing:1px;text-decoration:none;color:#ddd;font-weight:700;}
-#cssmenu > ul > li:hover > a,#cssmenu ul li.active a{color:#fff}
+#cssmenu > ul > li > a{padding:17px;font-size:12px;letter-spacing:1px;text-decoration:none;color:#1c77d5;font-weight:700;} /*#ddd*/
+#cssmenu > ul > li:hover > a,#cssmenu ul li.active a{color:#1c77d5} /*#fff*/
 #cssmenu > ul > li:hover,#cssmenu ul li.active:hover,#cssmenu ul li.active,#cssmenu ul li.has-sub.active:hover{background:#448D00!important;-webkit-transition:background .3s ease;-ms-transition:background .3s ease;transition:background .3s ease;}
 #cssmenu > ul > li.has-sub > a{padding-right:30px}
 #cssmenu > ul > li.has-sub > a:after{position:absolute;top:22px;right:11px;width:8px;height:2px;display:block;background:#ddd;content:''}
