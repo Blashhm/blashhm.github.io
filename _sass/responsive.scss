@@ -36,7 +36,7 @@ nav{position:relative;width:980px;margin:0 auto;}
 .logo{position:absolute;top:0;left: 0;width:100%;height:46px;text-align:center;padding: 0 0 0 0 ;float:none}
 .logo2{display:none}
 nav{width:100%;}
-#cssmenu{width:100%}
+#cssmenu{width:100%;left: 0; top:0}
 #cssmenu ul{width:100%;display:none}
 #cssmenu ul li{width:100%;border-top:1px solid #E0F2F7}/*#444*/
 #cssmenu ul li:hover{background:#EFF8FB;} /*#363636;*/
