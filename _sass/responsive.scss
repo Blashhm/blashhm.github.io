@@ -7,7 +7,7 @@ nav{position:relative;width:980px;margin:0 auto;}
 #cssmenu,#cssmenu ul,#cssmenu ul li,#cssmenu ul li a,#cssmenu #head-mobile{border:0;list-style:none;display:block;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box} /*line-height:1;*/
 #cssmenu:after,#cssmenu > ul:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
 #cssmenu #head-mobile{display:none}
-#cssmenu{/*font-family:sans-serif;*/background:#fff; position:fixed;left: 13%;}
+#cssmenu{/*font-family:sans-serif;*/background:#fff; position:fixed;left: 13%; top:0}
 #cssmenu > ul > li{float:left}
 #cssmenu > ul > li > a{padding:17px;font-size:12px;letter-spacing:1px;text-decoration:none;color:#1c77d5;font-weight:700;} /*#ddd*/
 #cssmenu > ul > li:hover > a,#cssmenu ul li.active a{color:#1c77d5} /*#fff*/
